@@ -664,6 +664,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 87861444802779973, guid: 57e78c62ffb64ba438a89d75322e403b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 87861444802779973, guid: 57e78c62ffb64ba438a89d75322e403b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 87861444802779973, guid: 57e78c62ffb64ba438a89d75322e403b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7634001310857608212, guid: 57e78c62ffb64ba438a89d75322e403b,
         type: 3}
       propertyPath: m_Name
@@ -724,16 +739,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7634001310857608215, guid: 57e78c62ffb64ba438a89d75322e403b,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7634001310857608215, guid: 57e78c62ffb64ba438a89d75322e403b,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 4a89355d3326ca7448452465c964241c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57e78c62ffb64ba438a89d75322e403b, type: 3}
 --- !u!1001 &8028199755545217392
