@@ -448,25 +448,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1596638535}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1402387481 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1188057090115105392, guid: 57e78c62ffb64ba438a89d75322e403b,
+--- !u!114 &1402387482 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1402387482, guid: 57e78c62ffb64ba438a89d75322e403b,
     type: 3}
   m_PrefabInstance: {fileID: 1251550990824749921}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1402387482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402387481}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c7a135fdb7fe1e4c94bb6bea0e6a5a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 100
 --- !u!4 &1492964982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
@@ -943,6 +936,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus
       objectReference: {fileID: 0}
+    - target: {fileID: 1251550990305129012, guid: 57e78c62ffb64ba438a89d75322e403b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251550990305129012, guid: 57e78c62ffb64ba438a89d75322e403b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251550990305129012, guid: 57e78c62ffb64ba438a89d75322e403b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4971035662664263608, guid: 57e78c62ffb64ba438a89d75322e403b,
         type: 3}
       propertyPath: m_RootOrder
@@ -1277,7 +1285,7 @@ PrefabInstance:
     - target: {fileID: 8587321441167720822, guid: ced5916b95b9cd04faeffc229842b1c8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 1.04
       objectReference: {fileID: 0}
     - target: {fileID: 8587321441167720822, guid: ced5916b95b9cd04faeffc229842b1c8,
         type: 3}
