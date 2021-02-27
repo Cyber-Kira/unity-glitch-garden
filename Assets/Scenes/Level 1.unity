@@ -269,7 +269,7 @@ PrefabInstance:
     - target: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.2700002
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
         type: 3}
@@ -338,7 +338,7 @@ PrefabInstance:
     - target: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.27
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
         type: 3}
@@ -486,7 +486,7 @@ PrefabInstance:
     - target: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.27
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
         type: 3}
@@ -875,7 +875,7 @@ PrefabInstance:
     - target: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2700002
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
         type: 3}
@@ -935,21 +935,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus
-      objectReference: {fileID: 0}
-    - target: {fileID: 1251550990305129012, guid: 57e78c62ffb64ba438a89d75322e403b,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1251550990305129012, guid: 57e78c62ffb64ba438a89d75322e403b,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1251550990305129012, guid: 57e78c62ffb64ba438a89d75322e403b,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4971035662664263608, guid: 57e78c62ffb64ba438a89d75322e403b,
         type: 3}
@@ -1354,7 +1339,7 @@ PrefabInstance:
     - target: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2700002
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4082446020346059779, guid: fc32d5dd61de8734e8a22bbbee633b2b,
         type: 3}
