@@ -32,7 +32,7 @@ public class DefenderSpawner : MonoBehaviour
         Vector2 clickPosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
         Vector2 worldPosition = Camera.main.ScreenToWorldPoint(clickPosition);
         Vector2 gridPosition = SnapToGrid(worldPosition);
-        return gridPosition;
+        return gridPosition; 
     }
 
     private Vector2 SnapToGrid(Vector2 rawWorldPosition)
