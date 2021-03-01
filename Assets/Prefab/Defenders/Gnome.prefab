@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 6903696162884073317}
   - component: {fileID: 6903696162884073318}
   - component: {fileID: 6903696162884073319}
+  - component: {fileID: 7299062384214580136}
   m_Layer: 0
   m_Name: Gnome
   m_TagString: Untagged
@@ -208,7 +209,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0052788258, y: 0.02375424}
+  m_Offset: {x: 0.06155497, y: 0.014374971}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -219,5 +220,19 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0527873, y: 1.0263927}
+  m_Size: {x: 0.6651076, y: 0.9451051}
   m_EdgeRadius: 0
+--- !u!114 &7299062384214580136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6903696162884073320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b1b0f3741e57d4298798f970f7256d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathVFX: {fileID: 0}
