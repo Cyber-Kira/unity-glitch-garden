@@ -18,6 +18,10 @@ public class AttackerSpawner : MonoBehaviour
         }
     }
 
+    public void StopSpawning() {
+        spawn = false;
+    }
+
     private void SpawnAttacker() 
     {
         var attackerIndex = Random.Range(0, attackersPrefab.Length);
@@ -32,10 +36,5 @@ public class AttackerSpawner : MonoBehaviour
                             Quaternion.identity
                         ) as Attacker;
         newAttacker.transform.parent = transform;
-    }
-
-    void Update()
-    {
-        
     }
 }
