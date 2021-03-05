@@ -19,7 +19,7 @@ public class HealthDisplay : MonoBehaviour
     {
         if (health <= 0)
         {
-            FindObjectOfType<LevelLoader>().LoadFirstScene();
+            FindObjectOfType<LevelController>().HandleLoseCondition();
         }
         healthText.text = health.ToString();
     }
