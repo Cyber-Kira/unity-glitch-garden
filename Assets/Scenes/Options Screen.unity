@@ -309,7 +309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -1630.3, y: 377}
+  m_AnchoredPosition: {x: -1630, y: 377}
   m_SizeDelta: {x: 402.17773, y: 147.00447}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369202848
@@ -1247,7 +1247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -1659.6, y: 148}
+  m_AnchoredPosition: {x: -1660, y: 148}
   m_SizeDelta: {x: 343.60626, y: 101.16591}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1364654942
@@ -1399,7 +1399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -1659.6, y: -15}
+  m_AnchoredPosition: {x: -1660, y: -15}
   m_SizeDelta: {x: 343.60626, y: 101.16591}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492817449
@@ -1661,8 +1661,8 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1381871525}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
+  m_MaxValue: 2
+  m_WholeNumbers: 1
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1883,6 +1883,11 @@ PrefabInstance:
       propertyPath: volumeSlider
       value: 
       objectReference: {fileID: 2142635231}
+    - target: {fileID: 4618137635951668158, guid: 55838d3d102a9f24fb61657432b25e50,
+        type: 3}
+      propertyPath: difficultySlider
+      value: 
+      objectReference: {fileID: 1765172727}
     - target: {fileID: 4618137635951668159, guid: 55838d3d102a9f24fb61657432b25e50,
         type: 3}
       propertyPath: m_RootOrder
